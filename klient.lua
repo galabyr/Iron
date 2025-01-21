@@ -1,4 +1,4 @@
-versia_in_server = 13.51
+versia_in_server = 13.50
 
 --function sendEmail(head, massage) run, err = pcall(httpGet, "https://api.telegram.org/bot5526017006:AAEBHMjZGXKZbh-_KpSplRLiphsZA1mTLxU/sendMessage?chat_id=354428067&text=" .. head .. ": " .. massage) end
 function sendTelegram(head, massage) run, err = pcall(httpGet, "https://api.telegram.org/bot5526017006:AAEBHMjZGXKZbh-_KpSplRLiphsZA1mTLxU/sendMessage?chat_id=354428067&text=" .. head .. ": " .. massage) end
